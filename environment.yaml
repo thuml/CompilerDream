@@ -1,0 +1,22 @@
+name: codezero
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.13
+  - pip=22.1.2
+  - cudatoolkit=11.3
+  - pip:
+    - -f https://download.pytorch.org/whl/cu113/torch_stable.html
+    - torch==1.12.1+cu113
+    - numpy==1.23
+    - protobuf==3.20.3
+    - gym==0.19
+    - torchtyping
+    - einops
+    - ruamel.yaml==0.17.21
+    - tqdm
+    - tensorboard
+    - func_timeout
+    - compiler-gym==0.2.5
