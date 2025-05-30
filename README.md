@@ -102,3 +102,13 @@ By default, the reward smoothing factor is specified in the configuration file. 
 ```
 Here, 0.0 disables smoothing. You can set this to any desired value. By default, this factor is set to 0.6 during RL training and 100.0 for value prediction.
 
+## Citation
+
+```
+@inproceedings{deng2025compilerdream,
+  title={CompilerDream: Learning a Compiler World Model for General Code Optimization},
+  author={Chaoyi Deng and Jialong Wu and Ningya Feng and Jianmin Wang and Mingsheng Long},
+  booktitle={ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2025}
+}
+```
