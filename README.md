@@ -1,6 +1,6 @@
 # CompilerDream: Learning a Compiler World Model for General Code Optimization (KDD 2025)
 
-This repository is supplementary to our paper, *CompilerDream: Learning a Compiler World Model for General Code Optimization* [[Arxiv]](https://arxiv.org/abs/2404.16077). We provide the code of our experiments, along with the training data and several model checkpoints.
+This repository is supplementary to our paper, *CompilerDream: Learning a Compiler World Model for General Code Optimization* [[Arxiv]](https://arxiv.org/abs/2404.16077). We provide the code of our experiments, along with the training data, part of testing data and several model checkpoints.
 
 ## Getting Started
 
