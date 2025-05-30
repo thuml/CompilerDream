@@ -1,6 +1,6 @@
 # CompilerDream: Learning a Compiler World Model for General Code Optimization (KDD 2025)
 
-This folder contains the code of our experiments, and part of training and testing data.
+This repository is supplementary to our paper, [CompilerDream: Learning a Compiler World Model for General Code Optimization](https://arxiv.org/abs/2404.16077). We provide the code of our experiments, along with the training data and several model checkpoints.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ Please be aware that you may need to modify the specific version of the PyTorch 
 
 To download and prepare datasets, follow these steps:
 
-1. Download datasets (`codezero_data.zip`) from the provided [Google Drive link](https://drive.google.com/drive/folders/1fbJGZ52TRv0K3eMd2nIgbLf8ZQKb8H49?usp=sharing).
+1. Download datasets (`codezero_data.zip`) from the provided [Google Drive link](https://drive.google.com/drive/folders/1fbJGZ52TRv0K3eMd2nIgbLf8ZQKb8H49?usp=sharing) or [Zenodo](https://doi.org/10.5281/zenodo.15549673).
 2. Unzip and link the datasets to the `./data` directory:
 
 ```bash
