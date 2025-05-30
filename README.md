@@ -126,12 +126,7 @@ If you have any questions, suggestions, or issues related to **CompilerDream**, 
 
 This project builds upon and benefits from several prior works:
 * We use [CompilerDream](https://github.com/facebookresearch/CompilerGym) as the compiler environment and its benchmark suite for testing.
-  > Cummins, Chris, et al. "Compilergym: Robust, performant compiler optimization environments for ai research." 2022 IEEE/ACM International Symposium on Code Generation and Optimization (CGO). IEEE, 2022.
-* Our value prediction experiments are inspired by PosetRL, and we used its action space in our code.
-  > Jain, Shalini, et al. "Poset-rl: Phase ordering for optimizing size and execution time using reinforcement learning." 2022 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS). IEEE, 2022.
-* The dataset used in this work is constructed based on data from [CodeContest](https://github.com/google-deepmind/code_contests), [FormAI](https://github.com/FormAI-Dataset/FormAI-dataset/), and AnghaBench.
-  > Li, Yujia, et al. "Competition-level code generation with alphacode." Science 378.6624 (2022): 1092-1097.
-  >
-  > Tihanyi, Norbert, et al. "The formai dataset: Generative ai in software security through the lens of formal verification." Proceedings of the 19th International Conference on Predictive Models and Data Analytics in Software Engineering. 2023.
-  >
-  > Da Silva, Anderson Faustino, et al. "Anghabench: A suite with one million compilable c benchmarks for code-size reduction." 2021 IEEE/ACM International Symposium on Code Generation and Optimization (CGO). IEEE, 2021.
+* Our code includes the action space in [Poset-RL](https://www.computer.org/csdl/proceedings-article/ispass/2022/595400a121/1Eyg5Q4MxB6).
+* We include the pass sequence from  [Coreset-NVP](https://proceedings.mlr.press/v202/liang23f/liang23f.pdf), and our evaluation of the value prediction agent follows its setup.
+* The dataset used in this work is constructed based on data from [CodeContest](https://github.com/google-deepmind/code_contests), [FormAI](https://github.com/FormAI-Dataset/FormAI-dataset/), and [AnghaBench](https://homepages.dcc.ufmg.br/~fernando/publications/papers/FaustinoCGO21.pdf).
+
