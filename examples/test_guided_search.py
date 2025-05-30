@@ -145,8 +145,7 @@ def main():
     max_cum_rwd_for_each_benchmark = defaultdict(list)
     
     LOAD = None
-    # LOAD = "/workspace/dengchaoyi/codezero-aaai/CodeZero/max_cum_rwd_for_each_benchmark-2732.json"
-    
+
     WALL_TIME = 60
     # P_RANDOM = 0.00
     P_RANDOM = 0.05

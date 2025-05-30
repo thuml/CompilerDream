@@ -192,7 +192,6 @@ def main():
     
     RANDOM = False
     LOAD = None
-    # LOAD = "/workspace/dengchaoyi/codezero-aaai/CodeZero/max_cum_rwd_for_each_benchmark-2732.json"
     from wmlib import ENABLE_FP16
     dtype = torch.float16 if ENABLE_FP16 else torch.float32  # only on cuda
     with torch.cuda.amp.autocast(enabled=ENABLE_FP16):

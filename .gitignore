@@ -31,7 +31,7 @@ comp_ckpt.py
 test_log.py
 *.pkl
 data
-codezero_data
+compilerdream_data
 /*.txt
 /*.json
 /*.jsonl

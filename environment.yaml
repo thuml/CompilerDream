@@ -1,4 +1,4 @@
-name: codezero
+name: compilerdream
 channels:
   - pytorch
   - conda-forge
